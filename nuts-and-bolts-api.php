@@ -275,7 +275,7 @@ function handle_newsletter_subscription()
     }
 
     // Email details
-    $to = 'tb@flixrstudios.co'; 
+    $to = 'your email'; 
     $subject = 'New Newsletter Subscription';
     $message = 'A new user has subscribed to your newsletter with the following email address: ' . $email;
     $headers = array('Content-Type: text/html; charset=UTF-8');
